@@ -90,13 +90,20 @@ if (!isset($_SESSION['usuario'])) {
     <P>// POSTERIORMENTE ESTA PÁGINA DE BIENVENIDA SERÁ CAMBIADA POR UN MENÚ DE OPCIONES
       PARA NAVEGAR POR LA PÁGINA WEB O LA APLICACIÓN. // </P>
 
-    <!-- BOTÓN LETRAS VOLVER AL INICIO -->
-    <a href="http://localhost/SOTE" class="btn">Volver al inicio</a>
+    <!-- BOTÓN: VOLVER AL INICIO -->
+    <!-- <a href="http://localhost/SOTE" class="btn">Volver al inicio</a> -->
+
+    <!-- CAMBIO DE LINK A DIRECTO EL ARCHIVO INDEX.HTML: -->
+    <button onclick="window.location.href='../index.html'" class="btn">Volver al inicio</button>
+
+
     <br>
     <br>
 
     <!-- BOTÓN LETRAS CERRAR SESIÓN -->
-    <a href="php/cerrar_sesion.php" class="btn">Cerrar Sesión</a>
+    <!-- <a href="php/cerrar_sesion.php" class="btn">Cerrar Sesión</a> -->
+
+    <button onclick="window.location.href='php/cerrar_sesion.php'" class="btn">Cerrar Sesión</button>
 
     <h3>Nota:Cerrar sesión implica tener que volver a abrirla
       <br>
