@@ -1,5 +1,8 @@
 <!-- EL SIGUIENTE CÓDIGO SE HAECE PARA QUE SI LA SESIÓN ESTÁ INICIADA
-Y SE RECARGA LA PÁGINA, LO LLEVE DIRECTO A LA BIENVENIDA. -->
+Y SE RECARGA LA PÁGINA DE INICIO DE SESIÓN, LO LLEVE DIRECTO A LA BIENVENIDA. -->
+
+<!-- CAMBIAR ESE BIENVENIDA POR UNA PÁGINA DE SESIÓN INICIADA. -->
+
 <?php
 
 session_start();
@@ -9,7 +12,7 @@ if (isset($_SESSION['usuario'])) {
 }
 
 ?>
-
+<!-- ----------------------------------------------------------------------------------------- -->
 
 <!DOCTYPE html>
 <html>
