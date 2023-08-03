@@ -8,6 +8,7 @@ session_start();
 session_destroy();
 // PARA QUE AL CERRAR LA SESIÓN LLEVE AL INDEX
 // header("location: ../../index.html");
+
 // PARA QUE AL CERRAR LA SESIÓN LLEVE NUEVAMENTE AL LOGIN & REGISTER
 header("location: ../index.php");
 
