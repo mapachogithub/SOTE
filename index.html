@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>SOLUCIONES TECNOLÓGICAS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,900&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+
+    <!-- LINK IN PORT VSCODE
+http://127.0.0.1:5500/ -->
+
+</head>
+
+<body>
+    <header class="header" id="inicio">
+
+        <!-- Botón de cerrar sesión -->
+        <a href="../PAGINA-ST-C/Login-register/php/cerrar_sesion.php" class="botonR">Cerrar Sesión</a>
+
+        <img src="menu.svg" alt="" class="menu">
+        <nav class="menu-navegacion">
+
+            <a href="#cerrarSesion">Cerrar Sesión</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicios</a>
+            <a href="#portafolio">Portafolio</a>
+            <a href="#expertos">Expertos</a>
+            <a href="#nosotros">Nosotros</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">SOLUCIONES TECNOLÓGICAS</h1>
+            <p class="copy">Servicios de mantenimiento y reparación para tu pc, celular o tablet.</P>
+            <P class="copy">Te atendemos de inmediato vía remota o puedes agendar tu servicio presencial.</p>
+            <br>
+            <P class="copy">Nuestra prioridad es tu satisfacción.</p>
+            <br>
+            <br>
+            <!-- BOTÓN DE LLAMADA -->
+            <!-- <div class="containerB">
+                <a href="tel:+573102685524" target="_blank" class="botonR">Llámanos</a> -->
+
+            <!-- BOTÓN DE LLAMADA -->
+            <!-- <a href="https://api.whatsapp.com/send?phone=573102685524&text=Hola!%20quiero%20hablar%20con%20el%20equipo%20de%20Soluciones%20Tecnol%C3%B3gicas%2C%20mi%20nombre%20es%20"
+                target="_blank" class="boton">Whatsapp</a> -->
+
+
+            <div class="containerB">
+                <a href="https://api.whatsapp.com/send?phone=573102685524&text=Hola!%20quiero%20hablar%20con%20el%20equipo%20de%20Soluciones%20Tecnol%C3%B3gicas%2C%20mi%20nombre%20es%20"
+                    target="_blank" class="botonR" onclick="mostrarMensaje()">Whatsapp</a>
+            </div>
+
+            <script>
+                function mostrarMensaje() {
+                    alert("Se abrirá una ventana nueva bajo los servidores oficiales de Whatsapp.");
+                }
+            </script>
+
+
+            <!-- BOTÓN DE REGISTRO      -->
+            <a href="http://localhost/st/Login-register" target="_blank" class="botonR">Registro e Inicio de
+                Sesión</a>
+            <!-- <button class="botonR">Registro</button> -->
+
+            <!-- BOTÓN DE INICIO DE SESIÓN -->
+            <!-- <a href="http://localhost/Login-register/index.php" target="_blank" class="botonR">Inicio de sesión</a> -->
+
+        </div>
+
+        </div>
+    </header>
+    <main>
+        <section class="contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestros Servicios</h2>
+            <div class="contenedor-servicio">
+                <img src="Imgv/Checklist.svg" alt="">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Mantenimiento & Reparación de Computadores
+                        </h3>
+                        <p>Atendemos todo tipo de reapaciones para Windows & Mac.</p>
+                        <a href="https://api.whatsapp.com/send?phone=573102685524&text=Necesito%20asesor%C3%ADa%20para%20mantenimiento%20y%2Fo%20reparaciones."
+                            target="_blank">
+                            <button class="boton">Necesito asesoría para mantenimiento y/o reparaciones</button>
+                        </a>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span>Diseño Web</h3>
+                        <p>Diseñamos tu página web, la página web de tus sueños.</p>
+                        <a href="https://api.whatsapp.com/send?phone=573102685524&text=Quiero%20el%20dise%C3%B1o%20para%20mi%20p%C3%A1gina%20web"
+                            target="_blank">
+                            <button class="boton">Quiero diseñar mi página web</button>
+                        </a>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span>Venta de programas y licencias</h3>
+                        <p>Instalamos todo tipo de programas, licencias, sistemas operativos, antivirus.</p>
+                        <a href="https://api.whatsapp.com/send?phone=573102685524&text=Necesito%20asesor%C3%ADa%20en%20programas"
+                            target="_blank">
+                            <button class="boton">Necesito asesoría para programas</button>
+                        </a>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">4</span>Asistencia Remota Inmediata</h3>
+                        <p>Agenda ya mismo tu servicio de Asistencia Remota para que uno de nuestos expertos atienda tu
+                            caso.</p>
+                        <a href="https://api.whatsapp.com/send?phone=573102685524&text=Necesito%20agendar%20una%20asistencia%20remota."
+                            target="_blank">
+                            <button class="boton">Necesito agendar una asistencia remota</button>
+                        </a>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">5</span>Agenda tu domicilio</h3>
+                        <p>Agenda ya mismo tu servicio a domicilio a tu casa o empresa.</p>
+                        <a href="https://api.whatsapp.com/send?phone=573102685524&text=Necesito%20agendar%20un%20domicilio."
+                            target="_blank">
+                            <button class="boton">Necesito agendar un domicilio</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galería</h2>
+                <div class="contenedor-galeria">
+                    <img src="Galería/1.jpg" alt="" class="img-galeria">
+                    <img src="Galería/2.jpg" alt="" class="img-galeria">
+                    <img src="Galería/3.jpg" alt="" class="img-galeria">
+                    <img src="Galería/4.jpg" alt="" class="img-galeria">
+                    <img src="Galería/5.jpg" alt="" class="img-galeria">
+                    <img src="Galería/6.jpg" alt="" class="img-galeria">
+                </div>
+            </div>
+        </section>
+
+        <section class="imagen-ligth">
+            <img src="x.svg" alt="" class="Close">
+
+            <!-- IMAGEN DE FONDO PARA EL HEADER -->
+            <img src="Imgv/tecnología.jpg" alt="" class="agregar-imagen">
+        </section>
+
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en:</h2>
+            <section class="experts">
+
+                <div class="cont-expert">
+                    <img src="Imgv/cleaning.svg" alt="">
+                    <h3 class="n-expert">PC Cleaning</h3>
+                </div>
+
+                <div class="cont-expert">
+                    <img src="Imgv/Data-analytics.svg" alt="">
+                    <h3 class="n-expert">Data Analysis</h3>
+                </div>
+
+                <div class="cont-expert">
+                    <img src="Imgv/security2.svg" alt="">
+                    <h3 class="n-expert">Security</h3>
+                </div>
+            </section>
+
+            <br>
+            <br>
+            <br>
+
+            <section class="nosotros" id="nosotros">
+                <h1>NOSOTROS</h1>
+                <br>
+                <P>Desde hace más de 10 años trabajamos en el mantenimiento y en la reparación, tanto en hardware como
+                    en sotfware, de computadoras portátiles y de escritorio. así como en la venta de equipos, nuevos o
+                    de segunda, repuestos y accesorios de pc, videoJuegos, consolas, controles, televisores, y
+                    accesorios para gamer.
+                    <BR></BR>
+                    Nos enfocamos en la calidad y efectividad de nuestro servicio.
+                    Los equipos que recibimos para reparación o mantenimiento, los cuidamos y los entregamos como nuevos
+                    para tu satisfacción.
+                </P>
+            </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">SOLUCIONES TECNOLÓGICAS</h2>
+                <!-- <P>SOMOS EXPERTOS EN SOLUCIONAR TODOS LOS PROBLEMAS DE TU PC</P> -->
+                <BR></BR>
+                <p>DESARROLLADO POR FRANCISCO QUIÑONES MALDONADO</p>
+
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/profile.php?id=100063549670379&viewas=&show_switched_toast=false&show_switched_tooltip=false&is_tour_dismissed=false&is_tour_completed=false&show_podcast_settings=false&show_community_review_changes=false&should_open_composer=false&badge_type=NEW_MEMBER&show_community_rollback_toast=false&show_community_rollback=false&show_follower_visibility_disclosure=false&bypass_exit_warning=true"
+                    target="_blank" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://instagram.com/soluciones.tecnologicas.info?igshid=YmMyMTA2M2Y=" target="_blank"
+                    class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=573102685524&text=Hola!%20Quiero%20contactarme%20con%20Soluciones%20Tecnol%C3%B3gicas.%20Gracias"
+                    target="_blank" class="social-media-icon">
+                    <i class='bx bxl-whatsapp'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+
+    <script src="menu.js"></script>
+    <script src="ligthbox.js"></script>
+</body>
+
+</html>
