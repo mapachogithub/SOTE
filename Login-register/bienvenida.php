@@ -91,10 +91,10 @@ if (!isset($_SESSION['usuario'])) {
       PARA NAVEGAR POR LA PÁGINA WEB O LA APLICACIÓN. // </P>
 
     <!-- BOTÓN: VOLVER AL INICIO -->
-    <!-- <a href="http://localhost/SOTE" class="btn">Volver al inicio</a> -->
+    <a href="http://127.0.0.1:5501/index.html" class="btn">Volver al inicio</a>
 
     <!-- CAMBIO DE LINK A DIRECTO EL ARCHIVO INDEX.HTML: -->
-    <button onclick="window.location.href='../index.html'" class="btn">Volver al inicio</button>
+    <!-- <button onclick="window.location.href='../index.html'" class="btn">Volver al inicio</button> -->
 
 
     <br>
