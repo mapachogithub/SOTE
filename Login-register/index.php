@@ -70,7 +70,11 @@ if (isset($_SESSION['usuario'])) {
                     <br>
                     <br>
 
-                    <a href="http://localhost/SOTE/" class="botonise">Volver al inicio</a>
+                    <!-- <a href="http://localhost/SOTE/" class="botonise">Volver al inicio</a> -->
+                    <!-- opcion de live server para mostrar página: -->
+                    <a href="http://127.0.0.1:5501/index.html" class="botonise">Volver al inicio</a>
+
+
 
                     <!-- BOTÓN ALTERNO PARA CERRAR SESIÓN: QUEDARÁ COMENTADO  -->
                     <!-- <button id="cerrarSesionBtn">Cerrar Sesión</button>
@@ -109,9 +113,10 @@ if (isset($_SESSION['usuario'])) {
 
                     <!-- BOTÓN ALTERNO PARA CERRAR SESIÓN: QUEDARÁ COMENTADO -->
 
-
+                    <!-- FORMULARIO DE REGISTRO DE USUARIO-->
                 </form>
-                <!-- FORMULARIO DE REGISTRO -->
+
+
                 <!-- CON EL TEXTO ""php./registro_usuario_be.php"
                 ESTAMOS ACCEDIENDO AL PHP DONDE SE CONFIGURÓ
                 EL GUARDADO DE DATOS EN LA BASE DE DATOS -->

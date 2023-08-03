@@ -46,5 +46,7 @@ if (mysqli_num_rows($validar_login) > 0) {
     exit;
 }
 
+
+
 // FINALIZACIÓN DEL CÓDIGO PHP
 // POR: FRANCISCO QUIÑONES MALDONADO
