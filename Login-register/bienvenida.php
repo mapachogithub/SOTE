@@ -69,7 +69,7 @@ if (!isset($_SESSION['usuario'])) {
       padding: 12px 24px;
       font-size: 18px;
       color: #ffffff;
-      background-color: #337ab7;
+      background-color: #892929;
       border-radius: 4px;
       text-decoration: none;
       transition: background-color 0.3;
@@ -91,12 +91,12 @@ if (!isset($_SESSION['usuario'])) {
       PARA NAVEGAR POR LA PÁGINA WEB O LA APLICACIÓN. // </P>
 
     <!-- BOTÓN LETRAS VOLVER AL INICIO -->
-    <a href="http://localhost/st" class="botonR">Volver al inicio</a>
+    <a href="http://localhost/SOTE" class="btn">Volver al inicio</a>
     <br>
     <br>
 
     <!-- BOTÓN LETRAS CERRAR SESIÓN -->
-    <a href="php/cerrar_sesion.php">Cerrar Sesión</a>
+    <a href="php/cerrar_sesion.php" class="btn">Cerrar Sesión</a>
 
     <h3>Nota:Cerrar sesión implica tener que volver a abrirla
       <br>

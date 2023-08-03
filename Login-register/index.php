@@ -70,7 +70,7 @@ if (isset($_SESSION['usuario'])) {
                     <br>
                     <br>
 
-                    <a href="http://localhost/st/" class="botonR">Volver al inicio</a>
+                    <a href="http://localhost/SOTE/" class="botonise">Volver al inicio</a>
 
                     <!-- BOTÓN ALTERNO PARA CERRAR SESIÓN: QUEDARÁ COMENTADO  -->
                     <!-- <button id="cerrarSesionBtn">Cerrar Sesión</button>

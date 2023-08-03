@@ -91,6 +91,30 @@ main {
     color: #892929;
 }
 
+.botonise {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #892929;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3;
+
+    /* //sin estilo  */
+    /* padding: 15px;
+    border: 2px solid #fff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    outline: none;
+    transition: all 300ms;
+    background: #fff;
+    color: #892929; */
+}
+
 /* FORMULARIOS */
 /* ESTILOS AL CONTENEDOT DE TODO */
 .contenedor__login-register {
