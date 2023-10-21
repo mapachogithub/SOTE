@@ -20,10 +20,13 @@ body {
     padding: 60px 0;
 }
 
+/* FONDO DE PANTALLA DEL HEADER  */
+
+/* sin mostrar aún  21 10 2023*/
 header {
     height: 100vh;
     background-image: linear-gradient(to top, rgba(3, 0, 11, 0.491) 0%, rgba(9, 2, 45, 0.4) 100%),
-        url(/Galería/bg4.jpg);
+        url(header\ background\ \(2\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
