@@ -82,7 +82,22 @@
 
             <!-- BOTÓN DE SECCIÓN DE PAGOS -->
 
-            <a href="/SUBPAGES/Night Drive/index.html" target="_blank" class="botonR">Pagos</a>
+            <!-- Botón para abrir el archivo -->
+            <!-- Botón que abre una nueva pestaña -->
+            <button onclick="abrirNuevaPestana()">Abrir Pagos</button>
+
+            <script>
+                function abrirNuevaPestana() {
+                    // URL que quieres abrir en la nueva pestaña
+                    var url = 'https://www.ejemplo.com';
+
+                    // Abre una nueva pestaña con la URL especificada
+                    window.open(url, '_blank');
+                }
+            </script>
+
+
+
 
 
         </div>
