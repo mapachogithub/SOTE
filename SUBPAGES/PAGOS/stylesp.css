@@ -20,13 +20,80 @@ body {
     padding: 60px 0;
 }
 
+/* --------------------------------------------------------------- */
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    text-align: center;
+    background-color: #f1f1f1;
+    /* Color de fondo para mejor visualización */
+    padding: 20px;
+}
+
+.contenedor {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.imagenepayco {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    max-height: 200px;
+}
+
+.contenido {
+    padding: 20px;
+    color: #fff;
+    /* Color del texto blanco */
+}
+
+.boton-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botonR,
+.botonWA {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.botonWA {
+    background-color: #25D366;
+    /* Color de Whatsapp */
+}
+
+.botonR:hover,
+.botonWA:hover {
+    background-color: #0056b3;
+}
+
+/* Cambiar el color del texto del enlace de Whatsapp */
+.botonWA i {
+    color: #fff;
+}
+
+
 /* FONDO DE PANTALLA DEL HEADER  */
 
 /* sin mostrar aún  21 10 2023*/
 header {
     height: 100vh;
     background-image: linear-gradient(to top, rgba(3, 0, 11, 0.491) 0%, rgba(9, 2, 45, 0.4) 100%),
-        url(../SUBPAGES/rustic.jpg);
+        url(/SUBPAGES/42277.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -92,6 +159,27 @@ header {
     font-weight: 300;
     font-size: 25px;
 }
+
+/* BOTÓN DE WHATSAPP botonWA */
+
+.botonWA {
+    display: inline-block;
+    background-color: #25d366;
+    /* Color verde de WhatsApp */
+    color: #ffffff;
+    /* Texto en color blanco */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.botonWA:hover {
+    background-color: #128C7E;
+    /* Cambio de color al pasar el ratón sobre el botón */
+}
+
 
 /* NUESTRO SERVICIO */
 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SECCIÓN DE PAGOS</title>
+    <link rel="stylesheet" href="stylesp.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,900&family=Montserrat:wght@400;700&family=Open+Sans:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="header" id="inicio">
+
+        <div class="contenedor">
+
+            <h1 class="titulo">SECCIÓN DE PAGOS</h1>
+
+            <img src="/SUBPAGES/epayco.png" alt="" class="imagenepayco">
+
+            <div class="contenido">
+                <p class="copy">En esta sección podrás encontrar el link de pago de la cuenta de cobro que hayas
+                    recibido.</p>
+                <p class="copy">Ingresa al siguiente link:</p>
+            </div>
+
+            <div class="boton-container">
+                <a href="https://secure.payco.co/checkoutopen/58879" target="_blank" class="botonR">PAGOS</a>
+            </div>
+
+            <!-- BOTÓN DE ¿NECESITAS AYUDA? -->
+            <div class="boton-container">
+                <a href="https://wa.link/5adi5s" target="_blank" class="botonWA" onclick="mostrarMensaje()">
+                    <i class='bx bxl-whatsapp'></i> ¿Necesita ayuda?
+                </a>
+            </div>
+
+            <script>
+                function mostrarMensaje() {
+                    alert("Se abrirá una ventana nueva bajo los servidores oficiales de Whatsapp.");
+                }
+            </script>
+
+        </div>
+
+    </header>
+
+    <script src="../menu.js"></script>
+    <script src="../ligthbox.js"></script>
+
+</body>
+
+</html>
