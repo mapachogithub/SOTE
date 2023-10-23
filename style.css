@@ -20,9 +20,6 @@ body {
     padding: 60px 0;
 }
 
-/* FONDO DE PANTALLA DEL HEADER  */
-
-/* sin mostrar aún  21 10 2023*/
 header {
     height: 100vh;
     background-image: linear-gradient(to top, rgba(3, 0, 11, 0.491) 0%, rgba(9, 2, 45, 0.4) 100%),
@@ -41,11 +38,9 @@ header {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /*PARA SEPRAR LOS ELEMENTOS*/
     color: white;
 }
 
-/* MENÚ DE NAVEGACIÓN */
 .menu {
     position: fixed;
     top: 30px;
@@ -69,7 +64,6 @@ header {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    /* transition: transform .3s ease-in-out; */
     transform: translate(110%);
     box-shadow: 0 0 6px rgba(0, 0, 0, .5);
 }
@@ -93,8 +87,6 @@ header {
     font-size: 25px;
 }
 
-/* NUESTRO SERVICIO */
-
 .subtitulo {
     text-align: center;
     font-weight: 300;
@@ -106,10 +98,8 @@ header {
 .contenedor-servicio {
     display: flex;
     justify-content: space-evenly;
-    /*espacio equitativo eje horizontal*/
     align-items: center;
     flex-wrap: wrap;
-    /*SI YA NO CABEN EN LA MISMA LÍNEA, LO PASA PARA ABAJO*/
 }
 
 .contenedor-servicio img {
@@ -124,8 +114,6 @@ header {
     margin-bottom: 20px;
 }
 
-/* TITULOS DEL FORMULARIO DE REGISTRO */
-
 #t1 {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -133,7 +121,6 @@ header {
     flex-direction: column;
     align-items: center;
     color: #726a95;
-    /* Color pastel para el texto */
 }
 
 #t2 {
@@ -147,7 +134,6 @@ header {
     border-radius: 20px;
 }
 
-/* FORMULARIO DE REGISTRO */
 form {
     width: 50%;
     margin: 0 auto;
@@ -156,7 +142,6 @@ form {
     align-items: center;
     justify-content: center;
     background-color: #f0e8d8;
-    /* Color pastel de fondo */
     padding: 30px;
     border-radius: 20px;
 }
@@ -165,7 +150,6 @@ label {
     margin-top: 10px;
     font-weight: bold;
     color: #726a95;
-    /* Color pastel para el texto */
 }
 
 input {
@@ -173,58 +157,33 @@ input {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #c5b6a5;
-    /* Color pastel para el borde */
     width: 100%;
     background-color: #f9f3e9;
-    /* Color pastel para el fondo de los campos de entrada */
     color: #4d4d4d;
-    /* Color de texto para los campos de entrada */
 }
 
-/* BOTONES DE LLAMDA Y DE REGISTRO  */
-
-.boton {
-    background: linear-gradient(to bottom, #9f9aff 0%, #090965 100%);
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 30px;
-    font-size: 18px;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-    transition: all 0.3s ease-in-out;
-}
-
-.botonR {
-    background: linear-gradient(to bottom, #9f9aff 0%, #090965 100%);
-    border: none;
-    color: white;
-    padding: 7px 20px;
-    border-radius: 30px;
-    font-size: 13px;
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
-    transition: all 0.3s ease-in-out;
-}
-
+.boton,
+.botonR,
 .botonCS {
     background: linear-gradient(to bottom, #9f9aff 0%, #090965 100%);
     border: none;
     color: white;
-    padding: 7px 20px;
     border-radius: 30px;
-    font-size: 13px;
     box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
     transition: all 0.3s ease-in-out;
-    /* Agregar márgenes */
-    margin-top: 20px;
-    /* Ajusta la cantidad de separación vertical */
-    margin-left: 20px;
-    /* Ajusta la cantidad de separación horizontal */
-
-    /* Posicionar el botón de manera absoluta */
-    position: absolute;
+    padding: 15px 30px;
+    /* Aumenta el tamaño del botón */
 }
 
-/* ---------------------------------------------------------------- */
+.botonR,
+.botonWA:hover {
+    background-color: #0056b3;
+}
+
+.boton:hover {
+    transform: translateY(-2px);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
 
 /* ESTILO BOTÓN PAGOS */
 
@@ -235,7 +194,8 @@ input {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    padding: 15px 30px;
+    padding: 20px 30px;
+    /* Aumenta el tamaño del botón */
     margin: 10px;
     cursor: pointer;
     border: 2px solid #3498db;
@@ -252,30 +212,19 @@ input {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
-/* ------------------------------------------------------------------- */
-.containerB {
-    display: flex;
-    justify-content: center;
-    /* Ajusta la alineación horizontal */
-
-}
+/* BOTÓN WHATSAPP */
 
 .botonWA {
     display: inline-block;
-    padding: 10px 20px;
+    padding: 15px 30px;
+    /* Aumenta el tamaño del botón */
     text-decoration: none;
     color: #fff;
-    background-color: #007BFF;
+    background-color: #25D366;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
-.botonWA {
-    background-color: #25D366;
-    /* Color de Whatsapp */
-}
-
-.botonR:hover,
 .botonWA:hover {
     background-color: #0056b3;
 }
@@ -283,27 +232,13 @@ input {
 .boton,
 .botonR {
     margin: 10px;
-    /* Margen opcional entre los botones */
 }
 
-
-.boton:hover {
-    transform: translateY(-2px);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-.botonR:hover {
-    transform: translateY(-2px);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-}
-
-/* NUESTROS SERVICIOS */
 .n-service {
     margin-bottom: 7px;
     color: #9f8ad0;
 }
 
-/* NUMERALES DE SERVICIOS  */
 .number {
     display: inline-block;
     background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
@@ -374,11 +309,9 @@ input {
     cursor: pointer;
 }
 
-/*¨39*/
 .experts {
     display: flex;
     justify-content: space-evenly;
-    /*Espacio equitativo*/
     align-items: center;
     flex-wrap: wrap;
 }
@@ -401,17 +334,6 @@ input {
     width: 100%;
     font-weight: 400;
 }
-
-/* footer */
-
-/* .nosotros{
-    text-align: center;
-    font-weight: 300;
-    color: #9f8ad0;
-    margin-bottom: 40px;
-    font-size: 20px;
-    height: 30vh;
- } */
 
 .nosotros {
     text-align: center;
@@ -489,7 +411,7 @@ footer {
     margin-bottom: 60px;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
     .menu-navegacion {
         width: 50vw;
     }
@@ -547,7 +469,7 @@ footer {
     }
 }
 
-@media screen and (mac-width:500px) {
+@media screen and (max-width: 500px) {
     .menu-navegacion {
         width: 65vw;
     }
@@ -557,10 +479,7 @@ footer {
         right: 20px;
     }
 
-    .titulo {
-        font-size: 30px;
-    }
-
+    .titulo,
     .subtitulo {
         font-size: 30px;
     }
