@@ -224,10 +224,60 @@ input {
     position: absolute;
 }
 
+/* ---------------------------------------------------------------- */
+
+/* ESTILO BOTÓN PAGOS */
+
+.botonP {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 30px;
+    margin: 10px;
+    cursor: pointer;
+    border: 2px solid #3498db;
+    border-radius: 25px;
+    background-color: #3498db;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.botonP:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+    color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+/* ------------------------------------------------------------------- */
 .containerB {
     display: flex;
     justify-content: center;
     /* Ajusta la alineación horizontal */
+
+}
+
+.botonWA {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007BFF;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.botonWA {
+    background-color: #25D366;
+    /* Color de Whatsapp */
+}
+
+.botonR:hover,
+.botonWA:hover {
+    background-color: #0056b3;
 }
 
 .boton,
