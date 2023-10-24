@@ -16,8 +16,12 @@ body {
 }
 
 .titulo2 {
-    color: whitesmoke;
+    color: white;
+    /* Cambiado a blanco */
     font-family: 'Chivo Mono', monospace;
+    font-size: 3.0em;
+    /* Aumentado el tamaño del título */
+    text-shadow: 1px 1px 3px rgba(15, 15, 15, 0.5);
 }
 
 .imagenepayco {
@@ -31,6 +35,9 @@ body {
 .copy {
     font-size: 1.2em;
     color: black;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    /* Agregado para hacer el texto en negrita */
 }
 
 .boton-container {
