@@ -44,6 +44,32 @@ body {
     margin-top: 20px;
 }
 
+.botonLL {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #383333;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    background: #d5e2eb;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.botonLL:hover {
+    background: #2980b9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.boton-container {
+    margin: 20px;
+    text-align: center;
+}
+
+
+
+
 .botonR,
 .botonWA {
     display: inline-block;
