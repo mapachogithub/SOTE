@@ -3,6 +3,7 @@
 
 <head>
     <title>SOLUCIONES TECNOLÓGICAS</title>
+
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,33 +17,16 @@
 
 <body>
 
-    <!-- Resto de tu código HTML para el encabezado -->
-    <!-- </header> -->
-    <!-- Resto de tu código HTML para el resto del cuerpo -->
 
-    <!-- CODIGO PHP PARA MOSTAR QUIEN HA INICIADO SESIÓN
-    ... EN DESARROLLO-->
+    <!--         ------------------------------------------------------------------------------- -->
+    <!--         ------------------------------------------------------------------------------- -->
 
 
     <header class="header" id="inicio">
 
-        <!-- Botón de cerrar sesión -->
+        <button onclick="cerrarSesion()" class="cerrar-sesion">Cerrar Sesión</button>
 
-        <!-- <a href="Login-register/php/cerrar_sesion.php" class="botonCS">Cerrar Sesión</a> -->
-        <!-- CAMBIO DE LINK A DIRECTO EL ARCHIVO INDEX.HTML -->
-        <!-- <button onclick="window.location.href='Login-register/php/cerrar_sesion.php'" class="botonCS">Cerrar
-            Sesión</button> -->
-
-        <!-- <button onclick="window.location.href='Login-register/php/cerrar_sesion.php'" class="botonCS">Cerrar
-            Sesión</button> -->
-
-
-
-
-        <img src="menu.svg" alt="" class="menu">
         <nav class="menu-navegacion">
-
-            <a href="#cerrarSesion">Cerrar Sesión</a>
             <a href="#inicio">Inicio</a>
             <a href="#servicio">Servicios</a>
             <a href="#portafolio">Portafolio</a>
@@ -50,15 +34,49 @@
             <a href="#nosotros">Nosotros</a>
             <a href="#contacto">Contacto</a>
         </nav>
+
         <div class="contenedor head">
             <h1 class="titulo">SOLUCIONES TECNOLÓGICAS</h1>
-            <p class="copy">Servicios de mantenimiento y reparación para tu pc, celular o tablet.</P>
-            <P class="copy">Te atendemos de inmediato vía remota o puedes agendar tu servicio presencial.</p>
-            <br>
-            <P class="copy">Nuestra prioridad es tu satisfacción.</p>
-            <br>
-            <br>
+            <p class="copy">Servicios de mantenimiento y reparación para tu pc, celular o tablet.</p>
+            <p class="copy">Te atendemos de inmediato vía remota o puedes agendar tu servicio presencial.</p>
+            <p class="copy">Nuestra prioridad es tu satisfacción.</p>
+        </div>
+
+        <p class="advertencia">Para visualizar el contenido completo de esta web, debe estar Xampp instalado y corriendo
+            MySQL y Apache.</p>
+
     </header>
+
+    <!-- Se añade este estilo para posicionar correctamente los nuevos elementos -->
+    <style>
+        .header {
+            position: relative;
+        }
+
+        .cerrar-sesion {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+        }
+
+        .advertencia {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 12px;
+            color: #888;
+        }
+    </style>
+
+    <!-- Se añade este script para la funcionalidad del botón de cerrar sesión -->
+    <script>
+        function cerrarSesion() {
+            // Agrega aquí la lógica para cerrar sesión
+            alert('Se cerrará la sesión');
+            var url = 'Login-register/php/cerrar_sesion.php';
+        }
+    </script>
+
 
     <!--         ------------------------------------------------------------------------------- -->
     <!--         ------------------------------------------------------------------------------- -->
@@ -177,16 +195,17 @@
                             <!-- BOTÓN DE PROGRAMAS -->
 
                             <div class="service">
-                                <button onclick="abrirNuevaPestanaPR()" class="boton">Programas</button>
+                                <button onclick="abrirMismaPestanaPR()" class="boton">Programas</button>
                             </div>
 
-                            <!-- ABRIR UNA NUEVA PESTAÑA CON EL BOTÓN  -->
+                            <!-- ABRIR EN LA MISMA PESTAÑA CON EL BOTÓN  -->
                             <script>
-                                function abrirNuevaPestanaPR() {
+                                function abrirMismaPestanaPR() {
                                     var url = 'SUBPAGES/Prog/indexlp.html';
-                                    window.open(url, '_blank');
+                                    window.open(url, '_self');
                                 }
                             </script>
+
 
                             <!-- ------------------------------------------------------------------------------------------------- -->
                             <!-- BOTÓN DE MANTENIMIENTO -->
@@ -194,18 +213,6 @@
                             <button onclick="nothing()" class="boton">Mantenimiento & Reparación de
                                 Computadores</button>
                         </div>
-
-
-                        <!-- ------------------------------------------------------------------------------------------------- -->
-
-                        <!-- ABRIR UNA NUEVA PESTAÑA CON EL BOTÓN  -->
-
-                        <!-- <script>
-                            function abrirNuevaPestanaPENDIENTE() {
-                                var url = 'SUBPAGES/Prog/indexlp.html';
-                                window.open(url, '_blank');
-                            }
-                        </script> -->
 
                         <!--------------------------------------------------------------------------------- -->
 
@@ -274,8 +281,8 @@
                     <!-- BOTÓN DE WHATSAPP -->
 
                 <div class="containerB">
-                    <a href="https://api.whatsapp.com/send?phone=573102685524&text=Hola!%20quiero%20hablar%20con%20el%20equipo%20de%20Soluciones%20Tecnol%C3%B3gicas%2C%20mi%20nombre%20es%20"
-                        target="_blank" class="botonWA" onclick="mostrarMensaje()">Whatsapp</a>
+                    <a href="https://wa.link/2zmc5d" target="_blank" class="botonWA"
+                        onclick="mostrarMensaje()">Whatsapp</a>
                 </div>
 
                 <script>
@@ -295,11 +302,11 @@
                     <h2 class="subtitulo">Galería</h2>
                     <div class="contenedor-galeria">
                         <img src="Galería/1.jpg" alt="" class="img-galeria">
-                        <img src="Galería/2.jpg" alt="" class="img-galeria">
+                        <img src="Galería/2.JPEG" alt="" class="img-galeria">
                         <img src="Galería/3.jpg" alt="" class="img-galeria">
                         <img src="Galería/4.jpg" alt="" class="img-galeria">
                         <img src="Galería/5.jpg" alt="" class="img-galeria">
-                        <img src="Galería/6.jpg" alt="" class="img-galeria">
+                        <img src="Galería/6.png" alt="" class="img-galeria">
                     </div>
                 </div>
             </section>
