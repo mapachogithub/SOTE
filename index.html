@@ -281,8 +281,8 @@
                     <!-- BOTÓN DE WHATSAPP -->
 
                 <div class="containerB">
-                    <a href="https://wa.link/2zmc5d" target="_blank" class="botonWA"
-                        onclick="mostrarMensaje()">Whatsapp</a>
+                    <a href="https://wa.link/2zmc5d" target="_blank" class="botonWA" onclick="mostrarMensaje()"><i
+                            class='bx bxl-whatsapp'></i> Whatsapp</a>
                 </div>
 
                 <script>
@@ -412,7 +412,78 @@
     <script src="menu.js"></script>
     <script src="ligthbox.js"></script>
 
+    <!-- -------------------------------------------------------------------------------------------------- -->
 
+    <!-- BOTONES FLOTANTES -->
+
+    <!-- Botón de Llamada -->
+    <a href="tel:310-2685524" target="_blank" class="boton-flotante llamada"
+        onclick="mostrarMensaje('Se realizará una llamada con tu operador')">&#x260E;</a>
+    <a href="tel: 310-2685524" target="_blank" class="botonLL" onclick="mostrarMensaje()">ó llámanos</a>
+
+
+    <!-- Botón de WhatsApp -->
+    <a href="https://wa.link/2zmc5d" target="_blank" class="boton-flotante whatsapp"
+        onclick="mostrarMensaje('Serás redirigido a tu servidor de WhatssApp')">
+        <i class='bx bxl-whatsapp'></i>
+    </a>
+
+
+    <style>
+        /* Estilo para los botones flotantes */
+        .boton-flotante {
+            position: fixed;
+            background-color: #007bff;
+            /* Cambia el color de fondo según tus preferencias */
+            color: #fff;
+            border: none;
+            border-radius: 50%;
+            padding: 15px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            cursor: pointer;
+            opacity: 0.5;
+            /* Ajusta la opacidad según tus preferencias */
+            transition: opacity 0.3s, transform 0.3s;
+            z-index: 1000;
+            /* Asegura que estén por encima de otros elementos */
+        }
+
+        /* Estilo específico para el botón de Llamada */
+        .llamada {
+            bottom: 20px;
+            right: 20px;
+            /* Ajusta la posición horizontal */
+        }
+
+        /* Estilo específico para el botón de WhatsApp */
+        .whatsapp {
+            bottom: 80px;
+            /* Ajusta la posición vertical */
+            right: 20px;
+            /* Ajusta la posición horizontal */
+        }
+
+        /* Estilo para redondear más los botones */
+        .boton-flotante:hover {
+            opacity: 0.8;
+            /* Ajusta la opacidad al pasar el ratón sobre ellos */
+            transform: scale(1.05);
+            /* Ajusta la escala para un efecto más llamativo */
+        }
+    </style>
+
+    <script>
+        function mostrarMensaje(mensaje) {
+            alert("Se realizará la acción: " + mensaje);
+        }
+    </script>
+
+
+
+
+    <!-- -------------------------------------------------------------------------------------------------- -->
 </body>
 
 </html>
