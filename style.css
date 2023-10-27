@@ -1,3 +1,96 @@
+/* General styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header styles */
+.header {
+    position: relative;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.cerrar-sesion {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.advertencia {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 12px;
+    color: #888;
+}
+
+/* Navigation styles */
+.menu-navegacion {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.menu-navegacion a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Nosotros section styles */
+.nosotros {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* Galería section styles */
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.img-galeria {
+    width: 30%;
+    margin-bottom: 20px;
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 768px) {
+    .header {
+        padding: 40px 0;
+    }
+
+    .menu-navegacion {
+        flex-direction: column;
+    }
+
+    .menu-navegacion a {
+        margin: 10px 0;
+    }
+
+    .advertencia {
+        display: none;
+    }
+
+    .nosotros {
+        margin-bottom: 20px;
+    }
+
+    .galeria .img-galeria {
+        width: 100%;
+    }
+}
+
+/* Additional styles from the second block */
 * {
     margin: 0;
     padding: 0;
@@ -29,6 +122,9 @@ header {
     background-attachment: fixed;
     background-position: center;
 }
+
+/* Los otros estilos... */
+
 
 @media screen and (max-width: 800px) {
     header {
@@ -235,16 +331,6 @@ input {
 
 /* ESTILO BOTÓN PAGOS */
 
-/* .botonP {
-    background-color: #f7f7f7;
-    padding: 40px;
-    text-align: center;
-    font-size: 2em;
-    color: #333;
-    font-size: 1.2em;
-    color: #666;
-    line-height: 1.6;
-} */
 
 .botonP {
     font-family: 'Arial', sans-serif;
