@@ -193,12 +193,24 @@
                         <!--         ------------------------------------------------------------------------------- -->
 
                         <div class="service">
-                            <h3 class="n-service"><span class="number">3</span>Programas y licencias</h3>
+                            <h3 class="n-service"><span class="number">3</span>Programas</h3>
                             <p>Instalamos todo tipo de programas, licencias, sistemas operativos, antivirus.</p>
-                            <a href="/SUBPAGES/LinkProgramms/indexlp.html" target="_blank">
-                                <button class="boton">Necesito asesoría para programas</button>
-                            </a>
+
+                            <button onclick="abrirNuevaPestanaPR()" class="boton">- Programas -</button>
                         </div>
+
+                        <!-- ABRIR UNA NUEVA PESTAÑA CON EL BOTÓN  -->
+
+                        <script>
+                            function abrirNuevaPestanaPR() {
+                                // URL que quieres abrir en la nueva pestaña
+                                var url = 'SUBPAGES/LinkProgramms/indexlp.html';
+
+                                // Abre una nueva pestaña con la URL especificada
+                                window.open(url, '_blank');
+                            }
+                        </script>
+
                         <!--         ------------------------------------------------------------------------------- -->
 
                         <div class="service">
@@ -210,7 +222,7 @@
                                 <button class="boton">Necesito agendar una asistencia remota</button>
                             </a>
                         </div>
-                        <!--         ------------------------------------------------------------------------------- -->
+                        <!--------------------------------------------------------------------------------- -->
 
                         <div class="service">
                             <h3 class="n-service"><span class="number">5</span>Agenda tu domicilio</h3>
@@ -219,24 +231,7 @@
                                 <button class="boton">Necesito agendar un domicilio</button>
                             </a>
                         </div>
-                        <!--         ------------------------------------------------------------------------------- -->
 
-                        <div class="service">
-                            <h3 class="n-service"><span class="number">6</span>Instalación de programas y licencias</h3>
-                            <p>Instalamos todo tipo de programas, licencias, sistemas operativos, antivirus.</p>
-                            <button class="boton" onclick="mostrarVentanaEmergente()">EN DESARROLLO: Haz Click</button>
-                        </div>
-                        <!--         ------------------------------------------------------------------------------- -->
-
-                        <script>
-                            function abrirNuevaPestana() {
-                                // URL que quieres abrir en la nueva pestaña
-                                var url = 'SUBPAGES/LinkProgramms/indexlp.html';
-
-                                // Abre una nueva pestaña con la URL especificada
-                                window.open(url, '_blank');
-                            }
-                        </script>
                         <!--         ------------------------------------------------------------------------------- -->
 
                     </div>

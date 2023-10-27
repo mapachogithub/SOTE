@@ -7,6 +7,15 @@ body {
 
 /* Resto de los estilos... */
 
+.tituloSP {
+    color: #fff;
+    /* Color del texto */
+    font-size: 2em;
+    /* Tamaño del texto */
+    margin: 0;
+    /* Elimina el margen predeterminado */
+}
+
 header {
     background-image: url('HB1.jpg');
     background-size: cover;
