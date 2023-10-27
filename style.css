@@ -92,11 +92,13 @@ header {
 .titulo {
     font-size: 60px;
     margin-bottom: 60px;
+    color: white;
 }
 
 .copy {
     font-weight: 300;
     font-size: 25px;
+    color: white;
 }
 
 .subtitulo {
@@ -172,6 +174,24 @@ input {
     width: 100%;
     background-color: #f9f3e9;
     color: #4d4d4d;
+}
+
+.botonLL {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #383333;
+    border: 2px solid #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    background: #d5e2eb;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+}
+
+.botonLL:hover {
+    background: #2980b9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .boton,
@@ -348,6 +368,43 @@ input {
     font-weight: 400;
 }
 
+/* --------------------------------------------------------------------------------------- */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.nosotrost {
+    padding: 50px 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.content {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/* --------------------------------------------------------------------------------------- */
 .nosotros {
     display: flex;
     flex-direction: column;
@@ -372,7 +429,9 @@ input {
     margin: 10px 0;
 }
 
-
+.pf {
+    color: white;
+}
 
 footer {
     background: #0c0226de;

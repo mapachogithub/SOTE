@@ -66,6 +66,7 @@
     <main>
         <!--         ------------------------------------------------------------------------------- -->
         <section class="nosotros" id="nosotros">
+            <br>
             <h1>PAGOS</h1>
             <br>
             <P>Sección de pagos
@@ -129,73 +130,93 @@
                         Sesión</a>
                 </P>
             </section>
+
+            <!--         ------------------------------------------------------------------------------- -->
             <!--         ------------------------------------------------------------------------------- -->
 
             <section class="contenedor" id="servicio">
                 <h2 class="subtitulo">Nuestros Servicios</h2>
                 <div class="contenedor-servicio">
+
                     <img src="Imgv/Checklist.svg" alt="">
+
                     <div class="checklist-servicio">
+                        <!--         ------------------------------------------------------------------------------- -->
+
                         <div class="service">
                             <h3 class="n-service"><span class="number">1</span>Mantenimiento & Reparación de
                                 Computadores
                             </h3>
                             <p>Atendemos todo tipo de reapaciones para Windows & Mac.</p>
-                            <a href="https://api.whatsapp.com/send?phone=573102685524&text=Necesito%20asesor%C3%ADa%20para%20mantenimiento%20y%2Fo%20reparaciones."
-                                target="_blank">
+                            <a href="https://wa.link/v615e8" target="_blank">
                                 <button class="boton">Necesito asesoría para mantenimiento y/o reparaciones</button>
                             </a>
                         </div>
+                        <!--         ------------------------------------------------------------------------------- -->
+
                         <div class="service">
                             <h3 class="n-service"><span class="number">2</span>Diseño Web</h3>
                             <p>Diseñamos tu página web, la página web de tus sueños.</p>
-                            <a href="https://api.whatsapp.com/send?phone=573102685524&text=Quiero%20el%20dise%C3%B1o%20para%20mi%20p%C3%A1gina%20web"
-                                target="_blank">
+                            <a href="https://wa.link/nw2rjo" target="_blank">
                                 <button class="boton">Quiero diseñar mi página web</button>
                             </a>
                         </div>
+                        <!--         ------------------------------------------------------------------------------- -->
+
                         <div class="service">
                             <h3 class="n-service"><span class="number">3</span>Venta de programas y licencias</h3>
                             <p>Instalamos todo tipo de programas, licencias, sistemas operativos, antivirus.</p>
-                            <a href="https://api.whatsapp.com/send?phone=573102685524&text=Necesito%20asesor%C3%ADa%20en%20programas"
-                                target="_blank">
+                            <a href="https://wa.link/9c3fh8" target="_blank">
                                 <button class="boton">Necesito asesoría para programas</button>
                             </a>
                         </div>
+                        <!--         ------------------------------------------------------------------------------- -->
+
                         <div class="service">
                             <h3 class="n-service"><span class="number">4</span>Asistencia Remota Inmediata</h3>
                             <p>Agenda ya mismo tu servicio de Asistencia Remota para que uno de nuestos expertos atienda
                                 tu
                                 caso.</p>
-                            <a href="https://api.whatsapp.com/send?phone=573102685524&text=Necesito%20agendar%20una%20asistencia%20remota."
-                                target="_blank">
+                            <a href="https://wa.link/o8rvwc" target="_blank">
                                 <button class="boton">Necesito agendar una asistencia remota</button>
                             </a>
                         </div>
+                        <!--         ------------------------------------------------------------------------------- -->
+
                         <div class="service">
                             <h3 class="n-service"><span class="number">5</span>Agenda tu domicilio</h3>
                             <p>Agenda ya mismo tu servicio a domicilio a tu casa o empresa.</p>
-                            <a href="https://api.whatsapp.com/send?phone=573102685524&text=Necesito%20agendar%20un%20domicilio."
-                                target="_blank">
+                            <a href="https://wa.link/34scl3" target="_blank">
                                 <button class="boton">Necesito agendar un domicilio</button>
                             </a>
                         </div>
+                        <!--         ------------------------------------------------------------------------------- -->
+
                         <div class="service">
                             <h3 class="n-service"><span class="number">6</span>Instalación de programas y licencias</h3>
                             <p>Instalamos todo tipo de programas, licencias, sistemas operativos, antivirus.</p>
-                            <a href="SUBPAGES/Night Drive/index.html">
-                                <button class="boton"> EN DESARROLLO: Haz Click </button>
-                            </a>
+                            <button class="boton" onclick="mostrarVentanaEmergente()">EN DESARROLLO: Haz Click</button>
                         </div>
+                        <!--         ------------------------------------------------------------------------------- -->
+
+                        <script>
+                            function mostrarVentanaEmergente() {
+                                var confirmacion = confirm("Hola! Esta sección está en desarrollo, mientras tanto serás redirigido a una animación o videojuego. Disfrútalos. Att: Eq. Soluciones Tecnológicas.");
+
+                                if (confirmacion) {
+                                    window.location.href = "SUBPAGES/Night Drive/index.html";
+                                }
+                            }
+                        </script>
+                        <!--         ------------------------------------------------------------------------------- -->
 
                     </div>
                 </div>
             </section>
 
-            <!--         ------------------------------------------------------------------------------- -->
 
-            <!--         ------------------------------------------------------------------------------- -->
             <section class="nosotros" id="nosotros">
+                <br>
                 <h1>Atención inmediata: Asistencia remota</h1>
                 <br>
                 <P>¿Necesitas resolver algo ahora mismo?
@@ -219,6 +240,7 @@
                 </script>
 
                 </P>
+                <br>
             </section>
             <!--         ------------------------------------------------------------------------------- -->
 
@@ -250,19 +272,39 @@
             <br>
             <br>
 
-            <section class="nosotros" id="nosotros">
-                <h1>NOSOTROS</h1>
-                <br>
-                <P>Desde hace más de 10 años trabajamos en el mantenimiento y en la reparación, tanto en hardware como
-                    en sotfware, de computadoras portátiles y de escritorio. así como en la venta de equipos, nuevos o
-                    de segunda, repuestos y accesorios de pc, videoJuegos, consolas, controles, televisores, y
-                    accesorios para gamer.
-                    <BR></BR>
-                    Nos enfocamos en la calidad y efectividad de nuestro servicio.
-                    Los equipos que recibimos para reparación o mantenimiento, los cuidamos y los entregamos como nuevos
-                    para tu satisfacción.
-                </P>
+            <section class="nosotrost" id="nosotrost">
+                <div class="container">
+                    <div class="content">
+                        <h1>NOSOTROS</h1>
+                        <br>
+                        <p>
+                            Con una trayectoria de más de una década, nos destacamos en la ingeniería de sistemas,
+                            especializándonos en el mantenimiento y reparación integral de computadoras portátiles y de
+                            escritorio.
+                            Tanto en el ámbito del hardware como del software, nuestra dedicación se refleja en la
+                            excelencia de
+                            nuestros servicios.
+                        </p>
+                        <p>
+                            Además, ofrecemos una cuidadosa selección de productos, que incluyen equipos nuevos y de
+                            segunda
+                            mano, repuestos y accesorios para PC, videojuegos, consolas, controles, televisores y
+                            accesorios para
+                            gamers.
+                        </p>
+                        <p>
+                            Nos enorgullece destacar nuestra atención meticulosa a la calidad y efectividad de cada
+                            servicio que
+                            brindamos. Cada equipo que llega a nuestras manos para reparación o mantenimiento es tratado
+                            con el
+                            máximo cuidado, asegurando que su entrega sea equivalente a un producto completamente nuevo,
+                            para tu
+                            total satisfacción.
+                        </p>
+                    </div>
+                </div>
             </section>
+
 
             <!--         ------------------------------------------------------------------------------- -->
             <section class="nosotros" id="nosotros">
@@ -271,15 +313,14 @@
                 <P>Comunícate con nosotros ahora mismo, puedes llamarnos dando click en el siguiente botón:</p>
                 <br>
                 <br>
-                <!-- BOTÓN DE WHATSAPP -->
-
-                <div class="containerB">
-                    <a href="tel:3102685524" target="_blank" class="botonWA" onclick="mostrarMensaje()">Llámanos</a>
+                <!-- BOTÓN DE lLÁMANOS -->
+                <div class="boton-container">
+                    <a href="tel: 310-2685524" target="_blank" class="botonLL" onclick="mostrarMensaje()">ó llámanos</a>
                 </div>
 
                 <script>
                     function mostrarMensaje() {
-                        alert("Se abrirá una ventana nueva bajo los servidores oficiales de tu operador de llamadas.");
+                        alert("Se realizará una llamada con tu operador telefónico.");
                     }
                 </script>
 
@@ -294,7 +335,7 @@
                 <h2 class="brand">SOLUCIONES TECNOLÓGICAS</h2>
                 <!-- <P>SOMOS EXPERTOS EN SOLUCIONAR TODOS LOS PROBLEMAS DE TU PC</P> -->
                 <BR></BR>
-                <p>DESARROLLADO POR FRANCISCO QUIÑONES MALDONADO</p>
+                <p class="pf">DESARROLLADO POR FRANCISCO QUIÑONES MALDONADO</p>
 
             </div>
             <div class="social-media">
