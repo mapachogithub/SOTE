@@ -403,6 +403,59 @@ p {
     line-height: 1.6;
 }
 
+/* --------------------------------------------------------------------------------------- */
+
+#nosotrosIS {
+    background-color: #f7f7f7;
+    /* Color de fondo */
+    padding: 40px;
+    /* Espaciado interno */
+    text-align: center;
+}
+
+#nosotrosIS h1 {
+    font-size: 2em;
+    /* Tamaño de la fuente del encabezado */
+    color: #333;
+    /* Color del texto */
+}
+
+#nosotrosIS p {
+    font-size: 1.2em;
+    /* Tamaño de la fuente del párrafo */
+    color: #666;
+    /* Color del texto */
+    line-height: 1.6;
+    /* Altura de línea */
+}
+
+.botonR {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #3498db;
+    /* Color de fondo del botón */
+    color: #fff;
+    /* Color del texto del botón */
+    text-decoration: none;
+    border-radius: 5px;
+    /* Bordes redondeados */
+    transition: background-color 0.3s ease;
+    /* Transición de color de fondo */
+}
+
+.botonR:hover {
+    background-color: #2980b9;
+    /* Color de fondo al pasar el mouse */
+}
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 768px) {
+    #nosotrosIS {
+        padding: 20px;
+    }
+}
+
 
 /* --------------------------------------------------------------------------------------- */
 .nosotros {
