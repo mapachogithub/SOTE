@@ -235,6 +235,17 @@ input {
 
 /* ESTILO BOTÓN PAGOS */
 
+/* .botonP {
+    background-color: #f7f7f7;
+    padding: 40px;
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    font-size: 1.2em;
+    color: #666;
+    line-height: 1.6;
+} */
+
 .botonP {
     font-family: 'Arial', sans-serif;
     font-size: 16px;
@@ -259,6 +270,12 @@ input {
     color: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+/* --------------------------------------------------------------------------- */
+
+
+
+/* -------------------------------------------------------------------------------------------- */
 
 /* BOTÓN WHATSAPP */
 
