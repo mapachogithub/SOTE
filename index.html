@@ -172,65 +172,84 @@
                     <div class="checklist-servicio">
                         <!--         ------------------------------------------------------------------------------- -->
 
-                        <div class="service">
-                            <h3 class="n-service"><span class="number">1</span>Mantenimiento & Reparación de
-                                Computadores
-                            </h3>
-                            <p>Atendemos todo tipo de reapaciones para Windows & Mac.</p>
-                            <a href="https://wa.link/v615e8" target="_blank">
-                                <button class="boton">Necesito asesoría para mantenimiento y/o reparaciones</button>
-                            </a>
-                        </div>
-                        <!--         ------------------------------------------------------------------------------- -->
+                        <!-- BOTÓN DE MANTENIMINETO Y REPARACIÓN -->
 
                         <div class="service">
-                            <h3 class="n-service"><span class="number">2</span>Diseño Web</h3>
-                            <p>Diseñamos tu página web, la página web de tus sueños.</p>
-                            <a href="https://wa.link/nw2rjo" target="_blank">
-                                <button class="boton">Quiero diseñar mi página web</button>
-                            </a>
-                        </div>
-                        <!--         ------------------------------------------------------------------------------- -->
+                            <!--------------------------------------------------------------------------------- -->
 
-                        <div class="service">
-                            <h3 class="n-service"><span class="number">3</span>Programas</h3>
-                            <p>Instalamos todo tipo de programas, licencias, sistemas operativos, antivirus.</p>
+                            <!-- BOTÓN DE PROGRAMAS -->
 
-                            <button onclick="abrirNuevaPestanaPR()" class="boton">- Programas -</button>
+                            <div class="service">
+                                <button onclick="abrirNuevaPestanaPR()" class="boton">Programas</button>
+                            </div>
+
+                            <!-- ABRIR UNA NUEVA PESTAÑA CON EL BOTÓN  -->
+                            <script>
+                                function abrirNuevaPestanaPR() {
+                                    var url = 'SUBPAGES/Prog/indexlp.html';
+                                    window.open(url, '_blank');
+                                }
+
+/*                       <!----------------------------------------------------------------------------------->                        */
+                            </script>
+                            <button onclick="abrirNuevaPestanaPENDIENTE()" class="boton">Mantenimiento & Reparación de
+                                Computadores</button>
                         </div>
 
                         <!-- ABRIR UNA NUEVA PESTAÑA CON EL BOTÓN  -->
-
                         <script>
-                            function abrirNuevaPestanaPR() {
-                                // URL que quieres abrir en la nueva pestaña
-                                var url = 'SUBPAGES/LinkProgramms/indexlp.html';
+                            function abrirNuevaPestanaPENDIENTE() {
+                                var url = 'SUBPAGES/Prog/indexlp.html';
+                                window.open(url, '_blank');
+                            }
+                        </script>
+                        <!--         ------------------------------------------------------------------------------- -->
 
-                                // Abre una nueva pestaña con la URL especificada
+                        <!-- BOTÓN DE DISEÑO WEB -->
+
+                        <div class="service">
+                            <button onclick="abrirNuevaPestanaPENDIENTE()" class="boton">Diseño y codificación
+                                web</button>
+                        </div>
+
+                        <!-- ABRIR UNA NUEVA PESTAÑA CON EL BOTÓN  -->
+                        <script>
+                            function abrirNuevaPestanaPENDIENTE() {
+                                var url = 'SUBPAGES/LinkProgramms/indexlp.html';
                                 window.open(url, '_blank');
                             }
                         </script>
 
                         <!--         ------------------------------------------------------------------------------- -->
 
-                        <div class="service">
-                            <h3 class="n-service"><span class="number">4</span>Asistencia Remota Inmediata</h3>
-                            <p>Agenda ya mismo tu servicio de Asistencia Remota para que uno de nuestos expertos atienda
-                                tu
-                                caso.</p>
-                            <a href="https://wa.link/o8rvwc" target="_blank">
-                                <button class="boton">Necesito agendar una asistencia remota</button>
-                            </a>
-                        </div>
-                        <!--------------------------------------------------------------------------------- -->
+                        <!-- BOTÓN DE ASISTENCIA REMOTA -->
 
                         <div class="service">
-                            <h3 class="n-service"><span class="number">5</span>Agenda tu domicilio</h3>
-                            <p>Agenda ya mismo tu servicio a domicilio a tu casa o empresa.</p>
-                            <a href="https://wa.link/34scl3" target="_blank">
-                                <button class="boton">Necesito agendar un domicilio</button>
-                            </a>
+                            <button onclick="abrirNuevaPestanaPENDIENTE()" class="boton">Asistencia Remota</button>
                         </div>
+
+                        <!-- ABRIR UNA NUEVA PESTAÑA CON EL BOTÓN  -->
+                        <script>
+                            function abrirNuevaPestanaPENDIENTE() {
+                                var url = 'SUBPAGES/LinkProgramms/indexlp.html';
+                                window.open(url, '_blank');
+                            }
+                        </script>
+                        <!--------------------------------------------------------------------------------- -->
+
+                        <!-- BOTÓN DE DOMICILIOS -->
+
+                        <div class="service">
+                            <button onclick="abrirNuevaPestanaPENDIENTE()" class="boton">Domicilios</button>
+                        </div>
+
+                        <!-- ABRIR UNA NUEVA PESTAÑA CON EL BOTÓN  -->
+                        <script>
+                            function abrirNuevaPestanaPENDIENTE() {
+                                var url = 'SUBPAGES/LinkProgramms/indexlp.html';
+                                window.open(url, '_blank');
+                            }
+                        </script>
 
                         <!--         ------------------------------------------------------------------------------- -->
 
