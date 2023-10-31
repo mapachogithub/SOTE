@@ -17,7 +17,7 @@ body {
 }
 
 header {
-    background-image: url('/subp/HB1.jpg');
+    background-image: url('../HB1.jpg');
     background-size: cover;
     color: #fff;
     text-align: center;
