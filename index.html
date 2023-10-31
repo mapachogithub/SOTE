@@ -93,19 +93,20 @@
             <br>
             <!-- BOTÓN DE SECCIÓN DE PAGOS -->
 
-            <button onclick="abrirNuevaPestanaP()" class="botonP">- Pagos -</button>
+            <button onclick="abrirEnMismaPestana()" class="botonP">- Pagos -</button>
 
             <script>
-                function abrirNuevaPestanaP() {
-                    // URL que quieres abrir en la nueva pestaña
-                    var url = 'SUBPAGES/PAGOS/indexsp.html';
+                function abrirEnMismaPestana() {
+                    // URL que quieres abrir en la misma pestaña
+                    var url = 'subp/PAGOS/indexsp.html';
 
-                    // Abre una nueva pestaña con la URL especificada
-                    window.open(url, '_blank');
+                    // Cambia la ubicación actual del navegador
+                    window.location.href = url;
                 }
             </script>
-            </P>
         </section>
+
+
 
         <!--         ------------------------------------------------------------------------------- -->
 
@@ -158,7 +159,27 @@
             </section>
             <br>
             <br>
-            <!--         ------------------------------------------------------------------------------- -->
+            <!--------------------------------------------------------------------------------- -->
+
+            <!-- SECCIÓN DE PROGRAMAS -->
+
+            <section class="promo-seccion">
+                <div class="promo-contenido">
+                    <img src="/subp/prog.png" alt="Imagen Promocional" class="imagen-promo">
+                    <h2 class="titulo-promo">¡Descubre nuestras herramientas premium!</h2>
+                    <p class="desc-promo">Explora nuestra exclusiva colección de programas gratis y de pago que llevan
+                        tu
+                        experiencia tecnológica al siguiente nivel. ¡Obtén acceso a funciones premium y soporte
+                        especializado con tu
+                        registro!</p>
+                    <a href="/subp/Prog/indexlp.html" class="btn-promo">Explorar nuestros programas</a>
+                </div>
+            </section>
+
+            <br>
+            <br>
+            <!--------------------------------------------------------------------------------- -->
+
             <section class="nosotrosIS" id="nosotrosIS">
 
                 <h1>Haz parte de nuestra comunidad y regístrate</h1>
@@ -167,6 +188,8 @@
                 <br>
                 <P>Al registrarte e iniciar sesión puedes actualizar tus datos de contacto o enviarnos un mensaje por
                     interno.
+                    <br>
+                    <br>
 
                     <!-- BOTÓN DE INICIO DE SESIÓN -->
 
@@ -201,7 +224,7 @@
                             <!-- ABRIR EN LA MISMA PESTAÑA CON EL BOTÓN  -->
                             <script>
                                 function abrirMismaPestanaPR() {
-                                    var url = 'SUBPAGES/Prog/indexlp.html';
+                                    var url = 'subp/Prog/indexlp.html';
                                     window.open(url, '_self');
                                 }
                             </script>
@@ -277,12 +300,12 @@
                     <br>
                     Contáctanos ahora por whatsapp en el siguiente link:
                     <br>
-                    <br>
-                    <!-- BOTÓN DE WHATSAPP -->
 
+                    <!-- BOTÓN DE WHATSAPP -->
+                    <br>
                 <div class="containerB">
                     <a href="https://wa.link/2zmc5d" target="_blank" class="botonWA" onclick="mostrarMensaje()"><i
-                            class='bx bxl-whatsapp'></i> Whatsapp</a>
+                            class='bx bxl-whatsapp'></i></a>
                 </div>
 
                 <script>
@@ -419,7 +442,7 @@
     <!-- Botón de Llamada -->
     <a href="tel:310-2685524" target="_blank" class="boton-flotante llamada"
         onclick="mostrarMensaje('Se realizará una llamada con tu operador')">&#x260E;</a>
-    <a href="tel: 310-2685524" target="_blank" class="botonLL" onclick="mostrarMensaje()">ó llámanos</a>
+
 
 
     <!-- Botón de WhatsApp -->
@@ -476,7 +499,7 @@
 
     <script>
         function mostrarMensaje(mensaje) {
-            alert("Se realizará la acción: " + mensaje);
+            alert("" + mensaje);
         }
     </script>
 

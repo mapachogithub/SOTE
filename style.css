@@ -123,7 +123,86 @@ header {
     background-position: center;
 }
 
-/* Los otros estilos... */
+/* ---------------------------------------------------------------------------------- */
+
+/* Estilos para la sección de programas */
+
+/* Estilos para la sección de promoción */
+
+/* Estilos para la imagen promocional */
+.imagen-promo {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    /* Ajusta el tamaño máximo según tus necesidades */
+    height: auto;
+    border-radius: 10px;
+    /* Agrega bordes redondeados si es necesario */
+    margin-bottom: 20px;
+}
+
+/* DEMÁS ESTILOS */
+
+
+.promo-seccion {
+    background-color: #060631;
+    color: #fff;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.promo-contenido {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.titulo-promo {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.desc-promo {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.btn-promo {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #3498db;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-promo:hover {
+    background-color: #2980b9;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilos para hacer responsive */
+@media only screen and (max-width: 600px) {
+    .titulo-promo {
+        font-size: 2em;
+    }
+
+    .desc-promo {
+        font-size: 1em;
+    }
+
+    .btn-promo {
+        padding: 12px 25px;
+        font-size: 1em;
+    }
+}
+
+
+
+/* ---------------------------------------------------------------------------------- */
+
+/* otros*/
 
 
 @media screen and (max-width: 800px) {
