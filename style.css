@@ -6,6 +6,24 @@ body {
     box-sizing: border-box;
 }
 
+.cerrar-sesion {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cerrar-sesion:hover {
+    background-color: #555;
+}
+
 /* Header styles */
 .header {
     position: relative;

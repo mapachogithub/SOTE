@@ -75,7 +75,7 @@ if (isset($_SESSION['usuario'])) {
 
                     <!-- <a href="http://localhost/SOTE/" class="botonise">Volver al inicio</a> -->
                     <!-- opcion de live server para mostrar página: -->
-                    <a href="http://127.0.0.1:5501/index.html" class="botonise">Volver al inicio</a>
+                    <a href="../index.html" class="botonise">Volver al inicio</a>
 
 
 
