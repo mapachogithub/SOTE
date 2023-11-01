@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Clientes</title>
+    <link rel="stylesheet" href="styled.css">
+</head>
+
+<body>
+    <header>
+        <h1></h1>
+        <img src="/LOGOS/STL.jpg" alt="Imagen de la empresa">
+    </header>
+
+    <form>
+
+
+
+        <h2>¡Regístrate y Mantén tus Datos Actualizados!</h2>
+
+        <p>En Soluciones Tecnológicas, valoramos cada conexión. Al registrarte, no solo te unes a una comunidad dedicada
+            a brindar soluciones tecnológicas de calidad, sino que también te abres a un mundo de beneficios exclusivos.
+            Mantener tus datos actualizados nos permite ofrecerte un servicio personalizado, adaptado a tus necesidades
+            cambiantes.
+            <br>
+            <br>
+            ¿Por qué registrarte? La respuesta es simple: acceso prioritario a nuestras últimas ofertas, actualizaciones
+            de servicios y asistencia técnica especializada. Además, al mantener tus datos al día, podemos informarte
+            sobre nuevas funcionalidades, eventos exclusivos y promociones personalizadas.
+            <br>
+            <br>
+            Tu satisfacción es nuestra prioridad, y al registrarte, nos das la oportunidad de brindarte una experiencia
+            tecnológica más efectiva y personalizada. ¡Únete a nosotros y descubre cómo la tecnología puede facilitar tu
+            vida!
+            <br>
+            <br>
+        </p>
+
+
+
+        <label for="nombre">Nombres:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" required>
+
+        <label for="celular">Celular:</label>
+        <input type="tel" id="celular" name="celular" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="tipoCliente">Tipo de Cliente:</label>
+        <select id="tipoCliente" name="tipoCliente" required>
+            <option value="personaNatural">Persona Natural</option>
+            <option value="personaJuridica">Persona Jurídica</option>
+        </select>
+
+        <div id="nitContainer" style="display: none;">
+            <label for="nit">NIT:</label>
+            <input type="text" id="nit" name="nit">
+        </div>
+
+        <br>
+        <br>
+        <br>
+
+
+        <button type="submit">Registrarse</button>
+        <br>
+        <br>
+        <button type="submit">Actualizar datos</button>
+    </form>
+
+    <footer>
+        <p>&copy; 2023 Empresa XYZ. Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        document.getElementById('tipoCliente').addEventListener('change', function () {
+            var nitContainer = document.getElementById('nitContainer');
+            nitContainer.style.display = (this.value === 'personaJuridica') ? 'block' : 'none';
+        });
+    </script>
+</body>
+
+</html>

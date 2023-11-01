@@ -84,24 +84,52 @@ if (!isset($_SESSION['usuario'])) {
 <body>
   <div class="container">
     <h1>Bienvenido</h1>
-    <p>PÁGINA DE SOLUCIONES TECNOLÓGICAS EN DESARROLLO</p>
-    <p>Desarrollado por: Francisco Quiñones Maldonado</p>
+    <p>SOLUCIONES TECNOLÓGICAS</p>
 
-    <P>// POSTERIORMENTE ESTA PÁGINA DE BIENVENIDA SERÁ CAMBIADA POR UN MENÚ DE OPCIONES
-      PARA NAVEGAR POR LA PÁGINA WEB O LA APLICACIÓN. // </P>
+
+    <br>
+    <img src="../subp/datos/act.jpg" alt="">
+    <br>
+    <h2>¡Regístrate y Mantén tus Datos Actualizados!</h2>
+    <p>Ingresa al siguiente enlace: </p>
+
+    <button onclick="window.location.href='../subp/datos/indexd.html'" class="btn">Registro & actualización de
+      datos</button>
+    <br>
+    <br>
+    <br>
+    <h2>¿Buscas algún programa?</h2>
+    <p>Visita nuestra sección de programas y
+      <br>¡Obtén lo último en software!
+    </p>
+    <img src="../subp/datos/prog.webp" alt="" width="500" height="300">
+
+    <br>
+    <br>
+    <button onclick="window.location.href='../subp/Prog/indexlp.html'" class="btn">Sección de programas</button>
+    <br>
+    <br>
+    <br>
+
+    <h2>¿Necesitas realizar un pago?</h2>
+    <img src="../subp/p1.jpg" alt="" width="500" height="300">
+    <br>
+    <br>
+    <button onclick="window.location.href='../subp/PAGOS/indexsp.html'" class="btn">Pagos</button>
+
+    <br>
+    <br>
+    <br>
+
+    <h2>Navega por nuestra web y descubre todas nuestras herramientras</h2>
+
+    <img src="../LOGOS/cr.png">
+    <br>
+    <br>
 
     <!-- BOTÓN: VOLVER AL INICIO -->
-    <a href="http://127.0.0.1:5501/index.html" class="btn">Volver al inicio</a>
 
-    <!-- CAMBIO DE LINK A DIRECTO EL ARCHIVO INDEX.HTML: -->
-    <!-- <button onclick="window.location.href='../index.html'" class="btn">Volver al inicio</button> -->
-
-
-    <br>
-    <br>
-
-    <!-- BOTÓN LETRAS CERRAR SESIÓN -->
-    <!-- <a href="php/cerrar_sesion.php" class="btn">Cerrar Sesión</a> -->
+    <button onclick="window.location.href='../index.html'" class="btn">Volver al inicio</button>
 
     <button onclick="window.location.href='php/cerrar_sesion.php'" class="btn">Cerrar Sesión</button>
 
@@ -112,9 +140,16 @@ if (!isset($_SESSION['usuario'])) {
     <br>
     <br>
     <br>
-    <p>Gracias</p>
+    <p>Gracias por visitarnos</p>
+
+    <p>Derechos reservados, Francisco Quiñones Maldonado,
+      <br>Soluciones Tecnológicas
+    </p>
 
   </div>
+
+
+
 </body>
 
 </html>

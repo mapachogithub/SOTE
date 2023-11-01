@@ -229,5 +229,11 @@ main {
 
 }
 
+.imgwebp {
+    max-width: 30%;
+    height: auto;
+    margin-top: 20px;
+}
+
 /* FINALIZACIÓN DEL CÓDIGO CSS
 POR: FRANCISCO QUIÑONES MALDONADO */
